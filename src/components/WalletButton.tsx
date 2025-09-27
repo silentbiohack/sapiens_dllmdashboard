@@ -1,7 +1,7 @@
 import React from 'react';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
-import { Wallet, LogOut } from 'lucide-react';
+import { LogOut } from 'lucide-react';
 
 export const WalletButton: React.FC = () => {
   const { connected, publicKey, disconnect } = useWallet();

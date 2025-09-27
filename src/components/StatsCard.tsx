@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from 'lucide-react';
 import { clsx } from 'clsx';
 import { Tooltip, InfoTooltip } from './Tooltip';
 

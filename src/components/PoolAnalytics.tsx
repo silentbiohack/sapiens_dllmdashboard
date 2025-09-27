@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, TrendingUp, TrendingDown, Activity, DollarSign, BarChart3, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { ChevronDown, TrendingUp, Activity, DollarSign, BarChart3, ArrowUpRight, ArrowDownRight } from 'lucide-react';
 import { useDLMM } from '../hooks/useDLMM';
 import clsx from 'clsx';
 

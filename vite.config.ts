@@ -10,5 +10,17 @@ export default defineConfig({
   },
   optimizeDeps: {
     include: ['@saros-finance/dlmm-sdk']
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          solana: ['@solana/wallet-adapter-react', '@solana/wallet-adapter-react-ui', '@solana/web3.js'],
+          ui: ['lucide-react', 'clsx']
+        }
+      }
+    },
+    chunkSizeWarningLimit: 1000
   }
 })

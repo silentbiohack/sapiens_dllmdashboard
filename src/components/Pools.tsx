@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Search, Filter, TrendingUp, TrendingDown, ArrowUpDown } from 'lucide-react';
 import { mockPools, formatCurrency, formatPercentage } from '../data/mockPools';
-import type { Pool } from '../data/mockPools';
 import { useNavigation } from '../contexts/NavigationContext';
 
 type SortField = 'name' | 'tvl' | 'apr' | 'volume24h' | 'liquidityProviders';

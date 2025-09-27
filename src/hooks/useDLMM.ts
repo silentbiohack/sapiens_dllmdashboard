@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
-import { PublicKey } from '@solana/web3.js';
-import { DLMM } from '@saros-finance/dlmm-sdk';
+// Note: DLMM SDK import commented out as it's not available in the current setup
+// import { DLMM } from '@saros-finance/dlmm-sdk';
 
 export interface LPPosition {
   poolAddress: string;

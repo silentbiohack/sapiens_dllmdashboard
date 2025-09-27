@@ -7,7 +7,6 @@ import {
   Wallet, 
   TrendingUp, 
   Shield, 
-  Settings, 
   HelpCircle,
   ArrowRight,
   ExternalLink,
@@ -15,7 +14,6 @@ import {
   CheckCircle,
   Code,
   AlertTriangle,
-  Play,
   ChevronDown,
   ChevronRight
 } from 'lucide-react';
@@ -42,8 +40,7 @@ const cardVariants = {
     y: 0,
     scale: 1,
     transition: {
-      duration: 0.5,
-      ease: "easeOut"
+      duration: 0.5
     }
   }
 };
